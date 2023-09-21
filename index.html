@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 网站开启对 web app 程序的支持 具体表现为去除浏览器地址栏和底部导航栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 
+    用来定义顶部状态栏的形式默认是default为白色 black为黑色 black-translucent为灰色半透明
+    （会占据屏幕的约20px，不同的设备可能会有差异）
+    -->
+    <!-- 
+    在定义了apple-mobile-web-app-capable的前提下，
+    设置状态栏的属性值apple-mobile-web-app-status-bar-style才有效； 
+    -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="application-name" content="web独立页面的名称" />
+    <!-- 放在桌面上的图标 -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icon.png" />
+    <!-- 状态栏的背景色 -->
+    <meta name="theme-color" content="#f8f8f8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>招商银行收入明细</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
